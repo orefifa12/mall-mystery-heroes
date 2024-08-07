@@ -2,8 +2,8 @@ const express = require("express");
 const cors = require("cors");
 
 var corsOptions = {
-  origin: 'https://mall-mystery-heroes.vercel.app', // Your production domain
-};
+     origin: 'https://mall-mystery-heroes.vercel.app', // Your production domain
+  };
 
 const app = express();
 app.use(cors({ corsOptions }));
