@@ -4,13 +4,14 @@ import { connectFirestoreEmulator, getFirestore } from 'firebase/firestore';
 import { connectFunctionsEmulator, getFunctions } from "firebase/functions";
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_APIKEY,
-    authDomain: process.env.REACT_APP_AUTHDOMAIN,
-    projectId: process.env.REACT_APP_PROJECTID,
-    storageBucket: process.env.REACT_APP_STORAGEBUCKET,
-    messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
-    appId: process.env.REACT_APP_APPID,
-  };
+  apiKey: "AIzaSyBLKlCKFQh9Geh_boqjnwXO-rLN8VGjqBY",
+  authDomain: "mall-mystery-heroes.firebaseapp.com",
+  projectId: "mall-mystery-heroes",
+  storageBucket: "mall-mystery-heroes.appspot.com",
+  messagingSenderId: "47179087958",
+  appId: "1:47179087958:web:c435cbeeb77d29b884bbf7",
+  measurementId: "G-6YF35VGXE3"
+};
   
 
   const app = initializeApp(firebaseConfig);
