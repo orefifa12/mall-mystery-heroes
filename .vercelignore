@@ -1,0 +1,5 @@
+# Exclude firebase-debug
+./firebase-debug.log
+
+# Ignore cache files in node_modules
+node_modules/.cache/
