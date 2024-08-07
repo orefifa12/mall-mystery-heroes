@@ -2,8 +2,8 @@ const express = require("express");
 const cors = require("cors");
 
 var corsOptions = {
-    origin: "http://localhost:3000"
-  };
+  origin: 'https://mall-mystery-heroes.vercel.app', // Your production domain
+};
 
 const app = express();
 app.use(cors({ corsOptions }));
